@@ -43,7 +43,7 @@
     	        var ifrm = document.createElement("IFRAME");
     	        var gd = gadgets.views.getParams()['appData'];
     	        var ifrm_id = "googleplus_target";
-    	 		ifrm.setAttribute("src", "https://github.com/JGWitkowski/breakdance/blob/master/1/skeleton.html?parent=" 
+    	 		ifrm.setAttribute("src", "https://raw.github.com/JGWitkowski/breakdance/master/1/skeleton.html?parent=" 
     	 		    + encodeURIComponent(window.location.href) 
     	 		    + "&token=" + encodeURIComponent(token)
     	 		    + "&gd=" + encodeURIComponent(gd));        
